@@ -470,6 +470,7 @@ In this exercise, you will implement a single-node deployment of SAP HANA on Azu
     ```sh
     set_sap_download_credentials.sh [SAP_ID] [SAP_ID_password] template-sn1
     ```
+>**Note:** You can get the SAP-ID and SAP-ID-password in the Environment Details page.
 
 1.  In the SSH session to the Azure VM, run the following to initialize Terraform environment:
 
